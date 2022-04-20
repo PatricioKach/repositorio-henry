@@ -244,7 +244,7 @@ function esVocal(letra){
   }else if(letra.length > 1){
       return "Dato incorrecto"
 }
-
+}
 
 // No modificar nada debajo de esta línea
 // --------------------------------
@@ -283,4 +283,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-}
+};
