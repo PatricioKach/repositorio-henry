@@ -1,0 +1,45 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos,
+como si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables
+Strings
+Funciones (argumentos, return)
+Declaraciones if
+Valores booleanos (true, false)
+
+Variables:
+Las variables son aquellas definiciones que agregamos al codigo para que se consideren a la hora de ejecutarlo
+
+Strings: 
+Los strings son los valores en caracteres que le damos a las variables. Siempre se escriben entre comillas
+
+Funciones: 
+Las funciones son las estructuras de codigos que queremos ejecutar. Ellas tienen un nombre que le damos nosotros,
+seguido tienen entre parentesis los valores que queremos tener en cuenta, seguido tenemos entre llaves {} los
+distintos codigos y variables que nos ayudaran a conseguir que la funcion se pueda ejecutar.
+
+Declaraciones if: 
+Estas declaraciones nos permiten poner condicionantes para ejecutar mas de un valor en nuestra funcion, 
+en los casos que le indiquemos. Su esctructura es :
+if ( ejemplo > 10){
+    return true
+    } else { 
+    return false}
+ 
+En este caso quise indicar que si "ejemplo" tiene un valor mayor a 10, nos devolverá el valor "true" , y de lo contrario
+nos devolverá false.
+Si le quiero agregar mas condiciones luego de la llave del if, escribo una condicion comenzada con "else if" seguido 
+de otra indicacion, y luego de esa llave, la funcion culmina con "else" la cual indica lo que quiero que me devuelva
+en caso que todo lo anterior no suceda. Su estructura quedaria asi:
+if (ejemplo > 10){
+        return "Mayor"
+    } else if (ejemplo = 9){
+        return "igual"
+    } else (ejemplo < 9){
+        return "Menor"
+    }
+
+Valores booleanos: 
+Estos valores son el tercer tipo de lectura en JS, luego de strings  de numbers. Los booleanos solo tienen dos opciones
+los cuales indican si algo es true or false (verdadero-falso , si-no)
