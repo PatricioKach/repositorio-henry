@@ -1,4 +1,4 @@
-// No cambies los nombres de las funciones.
+ // No cambies los nombres de las funciones.
 
 function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
@@ -7,8 +7,10 @@ function obtenerMayor(x, y) {
   // Tu código:
   if( x > y){
     return x
-  }else{
+  }else if(y > x){
     return y
+  }else{
+    return x || y
   }
 }
 
