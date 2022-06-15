@@ -1,0 +1,50 @@
+JS III
+Homework: Javascript II
+Instrucciones
+En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos 
+como si se lo estuvieras explicando a un niño de 12 años.
+ Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+for
+&&, ||, !
+
+For: 
+El "Bucle for" es un método de javascript que permite recorrer todos los argumentos de una funcion y aplicarle alguna característica a cada uno o simplemente mostrarlo
+La sintaxis de este metodo comprende 3 expresiones separadas por  punto y coma (;)
+la primer expresion indica donde queremos que comience el bucle
+la segunda indica la longitud del bucle
+y la ultima expresion indica de que anera queremos iterar dicho bucle (poniendo i++ damos a entender que queremos iterar de a un elemento)
+
+Ejemplo:
+function aa (palabra){
+for ( i = 0; i < palabra.length; i++) {}
+}
+
+
+&&:
+es un operador lógico que permite que todos los elementos concatenados mediante este, sean tenidos en cuenta
+Ejemplo 
+function bb(num1, num2){
+  if (num1 < 10 && num2 < 20){
+    return "mayor"
+}
+
+
+||: 
+es un operador lógico que permite que solo uno de los elementos mencionados y separados mediante éste, sean tenidos en cuenta
+Ejemplo 
+function bb(num1, num2){
+  if (num1 < 10 || num2 < 20){
+    return "mayor"
+}
+!: 
+El signo de exclamación antes de un operador, significa que se precisa lo contrario a este operador en cuestion
+
+
+
+
+
+
+
+
