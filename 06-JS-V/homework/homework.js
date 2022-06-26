@@ -39,7 +39,6 @@ function agregarStringInvertida() {
     return this.split("").reverse().join("");
   };
 }
-
 // ---------------------------------------------------------------------------//
 //Crea el constructor de la clase "Persona"
 //Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio"
@@ -81,8 +80,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   // persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
-
-  let juan = new Persona("Juan", "Perez", 22, "Saavedra 123");
+  var juan = new Persona("Juan", "Perez", "22", "Saaverda 123");
   return juan;
 }
 
