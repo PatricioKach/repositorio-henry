@@ -1,0 +1,42 @@
+Homework: Javascript IV
+
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Objetos
+Propiedades
+Métodos
+Bucle for…in
+Notación de puntos vs notación de corchetes
+
+OBJETOS: 
+Un objeto es un contenedor de informacion. Esta informacion son propiedades las cuales pueden ser : claves, claves con sus valores, o métodos (asi se llaman a las funciones que están dentro de objetos)
+
+PROPIEDADES:
+Las propiedades son los elementos dentro de los objetos, los cuales estan valorados en pares de clave : valor. Las claves son los identificadores de los elementos, y el valor es el valor que se le asigna a cada clave.
+Las claves pueden ser previamente denominadas como elementos en la función. Todas las propiedades estan separadas por una coma
+
+MÉTODOS:
+Los métodos son las funciones que se describen dentro de los objetos. Se crean, por ejemplo, de la siguiente manera :
+var objeto = {
+  nombre: nombre,
+  edad: edad, 
+  metodo: function (){
+    return "algo"
+  }
+}
+
+BUCLE FOR... IN 
+este bucle es muy similar al "bucle for" en los array. La diferencia es que este no recorre indices de un array, sino que recorre todas las propiedades de un objeto
+En su sintaxis debemos declararle en nombre a una variable que será la que recorra las propiedades,
+y luego detallar en que objeto será que queremos generar el bucle. de esta forma queda asi:
+var usuario = {
+  name: "patricio"
+  lastname: "kachonosky"
+  
+  
+for (let nombre in usuario){
+  if (nombre === name){
+    return nombre
+  }
+
+NOTACION DE PUNTOS VS NOTACION DE CORCHETES
